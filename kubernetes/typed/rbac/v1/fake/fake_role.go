@@ -25,7 +25,7 @@ import (
 	schema "k8s.io/apimachinery/pkg/runtime/schema"
 	types "k8s.io/apimachinery/pkg/types"
 	watch "k8s.io/apimachinery/pkg/watch"
-	testing "k8s.io/client-go/testing"
+	testing "github.com/nalp/client-go/testing"
 )
 
 // FakeRoles implements RoleInterface

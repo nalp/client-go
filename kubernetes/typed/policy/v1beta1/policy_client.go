@@ -20,8 +20,8 @@ package v1beta1
 
 import (
 	v1beta1 "k8s.io/api/policy/v1beta1"
-	"k8s.io/client-go/kubernetes/scheme"
-	rest "k8s.io/client-go/rest"
+	"github.com/nalp/client-go/kubernetes/scheme"
+	rest "github.com/nalp/client-go/rest"
 )
 
 type PolicyV1beta1Interface interface {

@@ -20,8 +20,8 @@ package v1
 
 import (
 	v1 "k8s.io/api/admissionregistration/v1"
-	"k8s.io/client-go/kubernetes/scheme"
-	rest "k8s.io/client-go/rest"
+	"github.com/nalp/client-go/kubernetes/scheme"
+	rest "github.com/nalp/client-go/rest"
 )
 
 type AdmissionregistrationV1Interface interface {

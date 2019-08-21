@@ -23,7 +23,7 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/conversion"
 	"k8s.io/apimachinery/pkg/runtime"
-	scheme "k8s.io/client-go/scale/scheme"
+	scheme "github.com/nalp/client-go/scale/scheme"
 )
 
 // addConversions registers conversions between the internal version

@@ -27,7 +27,7 @@ import (
 	"k8s.io/klog"
 
 	"k8s.io/apimachinery/pkg/util/net"
-	restclient "k8s.io/client-go/rest"
+	restclient "github.com/nalp/client-go/rest"
 )
 
 func init() {

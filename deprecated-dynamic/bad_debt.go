@@ -26,8 +26,8 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"k8s.io/apimachinery/pkg/runtime/serializer"
-	"k8s.io/client-go/kubernetes/scheme"
-	"k8s.io/client-go/rest"
+	"github.com/nalp/client-go/kubernetes/scheme"
+	"github.com/nalp/client-go/rest"
 )
 
 // dynamicCodec is a codec that wraps the standard unstructured codec

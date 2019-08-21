@@ -19,7 +19,7 @@ package metadatalister
 import (
 	"k8s.io/apimachinery/pkg/labels"
 	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/client-go/tools/cache"
+	"github.com/nalp/client-go/tools/cache"
 )
 
 var _ cache.GenericLister = &metadataListerShim{}

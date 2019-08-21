@@ -22,7 +22,7 @@ import (
 	"time"
 
 	"k8s.io/apimachinery/pkg/util/clock"
-	rl "k8s.io/client-go/tools/leaderelection/resourcelock"
+	rl "github.com/nalp/client-go/tools/leaderelection/resourcelock"
 	"net/http"
 )
 

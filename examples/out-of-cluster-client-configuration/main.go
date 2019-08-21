@@ -26,17 +26,17 @@ import (
 
 	"k8s.io/apimachinery/pkg/api/errors"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/client-go/kubernetes"
-	"k8s.io/client-go/tools/clientcmd"
+	"github.com/nalp/client-go/kubernetes"
+	"github.com/nalp/client-go/tools/clientcmd"
 	//
 	// Uncomment to load all auth plugins
-	// _ "k8s.io/client-go/plugin/pkg/client/auth"
+	// _ "github.com/nalp/client-go/plugin/pkg/client/auth"
 	//
 	// Or uncomment to load specific auth plugins
-	// _ "k8s.io/client-go/plugin/pkg/client/auth/azure"
-	// _ "k8s.io/client-go/plugin/pkg/client/auth/gcp"
-	// _ "k8s.io/client-go/plugin/pkg/client/auth/oidc"
-	// _ "k8s.io/client-go/plugin/pkg/client/auth/openstack"
+	// _ "github.com/nalp/client-go/plugin/pkg/client/auth/azure"
+	// _ "github.com/nalp/client-go/plugin/pkg/client/auth/gcp"
+	// _ "github.com/nalp/client-go/plugin/pkg/client/auth/oidc"
+	// _ "github.com/nalp/client-go/plugin/pkg/client/auth/openstack"
 )
 
 func main() {

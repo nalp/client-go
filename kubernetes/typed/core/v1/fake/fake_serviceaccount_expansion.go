@@ -18,7 +18,7 @@ package fake
 
 import (
 	authenticationv1 "k8s.io/api/authentication/v1"
-	core "k8s.io/client-go/testing"
+	core "github.com/nalp/client-go/testing"
 )
 
 func (c *FakeServiceAccounts) CreateToken(name string, tr *authenticationv1.TokenRequest) (*authenticationv1.TokenRequest, error) {

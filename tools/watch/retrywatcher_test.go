@@ -35,7 +35,7 @@ import (
 	"k8s.io/apimachinery/pkg/util/diff"
 	"k8s.io/apimachinery/pkg/util/wait"
 	"k8s.io/apimachinery/pkg/watch"
-	"k8s.io/client-go/tools/cache"
+	"github.com/nalp/client-go/tools/cache"
 	"k8s.io/klog"
 )
 

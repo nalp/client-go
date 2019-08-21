@@ -28,7 +28,7 @@ import (
 	"k8s.io/apimachinery/pkg/runtime/serializer/streaming"
 	"k8s.io/apimachinery/pkg/types"
 	"k8s.io/apimachinery/pkg/watch"
-	"k8s.io/client-go/rest"
+	"github.com/nalp/client-go/rest"
 )
 
 type dynamicClient struct {

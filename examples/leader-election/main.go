@@ -28,12 +28,12 @@ import (
 	"time"
 
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	clientset "k8s.io/client-go/kubernetes"
-	"k8s.io/client-go/rest"
-	"k8s.io/client-go/tools/clientcmd"
-	"k8s.io/client-go/tools/leaderelection"
-	"k8s.io/client-go/tools/leaderelection/resourcelock"
-	"k8s.io/client-go/transport"
+	clientset "github.com/nalp/client-go/kubernetes"
+	"github.com/nalp/client-go/rest"
+	"github.com/nalp/client-go/tools/clientcmd"
+	"github.com/nalp/client-go/tools/leaderelection"
+	"github.com/nalp/client-go/tools/leaderelection/resourcelock"
+	"github.com/nalp/client-go/transport"
 	"k8s.io/klog"
 )
 

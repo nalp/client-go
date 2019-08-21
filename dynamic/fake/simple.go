@@ -28,8 +28,8 @@ import (
 	"k8s.io/apimachinery/pkg/runtime/serializer"
 	"k8s.io/apimachinery/pkg/types"
 	"k8s.io/apimachinery/pkg/watch"
-	"k8s.io/client-go/dynamic"
-	"k8s.io/client-go/testing"
+	"github.com/nalp/client-go/dynamic"
+	"github.com/nalp/client-go/testing"
 )
 
 func NewSimpleDynamicClient(scheme *runtime.Scheme, objects ...runtime.Object) *FakeDynamicClient {

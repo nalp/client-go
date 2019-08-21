@@ -28,14 +28,14 @@ import (
 	"k8s.io/apimachinery/pkg/util/clock"
 	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
 	"k8s.io/apimachinery/pkg/watch"
-	restclient "k8s.io/client-go/rest"
+	restclient "github.com/nalp/client-go/rest"
 
 	"k8s.io/api/events/v1beta1"
 	"k8s.io/apimachinery/pkg/util/json"
 	"k8s.io/apimachinery/pkg/util/strategicpatch"
 	"k8s.io/apimachinery/pkg/util/wait"
-	typedv1beta1 "k8s.io/client-go/kubernetes/typed/events/v1beta1"
-	"k8s.io/client-go/tools/record/util"
+	typedv1beta1 "github.com/nalp/client-go/kubernetes/typed/events/v1beta1"
+	"github.com/nalp/client-go/tools/record/util"
 	"k8s.io/klog"
 )
 

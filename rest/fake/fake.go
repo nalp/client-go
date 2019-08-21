@@ -25,8 +25,8 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"k8s.io/apimachinery/pkg/types"
-	restclient "k8s.io/client-go/rest"
-	"k8s.io/client-go/util/flowcontrol"
+	restclient "github.com/nalp/client-go/rest"
+	"github.com/nalp/client-go/util/flowcontrol"
 )
 
 func CreateHTTPClient(roundTripper func(*http.Request) (*http.Response, error)) *http.Client {

@@ -26,10 +26,10 @@ import (
 	"k8s.io/apimachinery/pkg/util/clock"
 	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
 	"k8s.io/apimachinery/pkg/watch"
-	"k8s.io/client-go/tools/reference"
+	"github.com/nalp/client-go/tools/reference"
 
 	"k8s.io/api/events/v1beta1"
-	"k8s.io/client-go/tools/record/util"
+	"github.com/nalp/client-go/tools/record/util"
 	"k8s.io/klog"
 )
 

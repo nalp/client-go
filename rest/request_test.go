@@ -49,10 +49,10 @@ import (
 	"k8s.io/apimachinery/pkg/util/httpstream"
 	"k8s.io/apimachinery/pkg/util/intstr"
 	"k8s.io/apimachinery/pkg/watch"
-	"k8s.io/client-go/kubernetes/scheme"
-	restclientwatch "k8s.io/client-go/rest/watch"
-	"k8s.io/client-go/util/flowcontrol"
-	utiltesting "k8s.io/client-go/util/testing"
+	"github.com/nalp/client-go/kubernetes/scheme"
+	restclientwatch "github.com/nalp/client-go/rest/watch"
+	"github.com/nalp/client-go/util/flowcontrol"
+	utiltesting "github.com/nalp/client-go/util/testing"
 )
 
 func TestNewRequestSetsAccept(t *testing.T) {

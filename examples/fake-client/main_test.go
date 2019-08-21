@@ -24,9 +24,9 @@ import (
 	"k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/util/wait"
-	"k8s.io/client-go/informers"
-	"k8s.io/client-go/kubernetes/fake"
-	"k8s.io/client-go/tools/cache"
+	"github.com/nalp/client-go/informers"
+	"github.com/nalp/client-go/kubernetes/fake"
+	"github.com/nalp/client-go/tools/cache"
 )
 
 // TestFakeClient demonstrates how to use a fake client with SharedInformerFactory in tests.

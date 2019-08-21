@@ -20,8 +20,8 @@ package v1alpha1
 
 import (
 	v1alpha1 "k8s.io/api/settings/v1alpha1"
-	"k8s.io/client-go/kubernetes/scheme"
-	rest "k8s.io/client-go/rest"
+	"github.com/nalp/client-go/kubernetes/scheme"
+	rest "github.com/nalp/client-go/rest"
 )
 
 type SettingsV1alpha1Interface interface {

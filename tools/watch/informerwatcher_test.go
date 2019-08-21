@@ -32,9 +32,9 @@ import (
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"k8s.io/apimachinery/pkg/util/diff"
 	"k8s.io/apimachinery/pkg/watch"
-	fakeclientset "k8s.io/client-go/kubernetes/fake"
-	testcore "k8s.io/client-go/testing"
-	"k8s.io/client-go/tools/cache"
+	fakeclientset "github.com/nalp/client-go/kubernetes/fake"
+	testcore "github.com/nalp/client-go/testing"
+	"github.com/nalp/client-go/tools/cache"
 )
 
 // TestEventProcessorExit is expected to timeout if the event processor fails

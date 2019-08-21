@@ -34,10 +34,10 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/util/wait"
 	"k8s.io/apimachinery/pkg/watch"
-	certificatesclient "k8s.io/client-go/kubernetes/typed/certificates/v1beta1"
-	"k8s.io/client-go/tools/cache"
-	watchtools "k8s.io/client-go/tools/watch"
-	certutil "k8s.io/client-go/util/cert"
+	certificatesclient "github.com/nalp/client-go/kubernetes/typed/certificates/v1beta1"
+	"github.com/nalp/client-go/tools/cache"
+	watchtools "github.com/nalp/client-go/tools/watch"
+	certutil "github.com/nalp/client-go/util/cert"
 )
 
 // RequestCertificate will either use an existing (if this process has run

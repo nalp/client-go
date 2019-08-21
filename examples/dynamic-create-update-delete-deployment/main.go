@@ -28,19 +28,19 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 	"k8s.io/apimachinery/pkg/runtime/schema"
-	"k8s.io/client-go/dynamic"
-	"k8s.io/client-go/tools/clientcmd"
-	"k8s.io/client-go/util/homedir"
-	"k8s.io/client-go/util/retry"
+	"github.com/nalp/client-go/dynamic"
+	"github.com/nalp/client-go/tools/clientcmd"
+	"github.com/nalp/client-go/util/homedir"
+	"github.com/nalp/client-go/util/retry"
 	//
 	// Uncomment to load all auth plugins
-	// _ "k8s.io/client-go/plugin/pkg/client/auth
+	// _ "github.com/nalp/client-go/plugin/pkg/client/auth
 	//
 	// Or uncomment to load specific auth plugins
-	// _ "k8s.io/client-go/plugin/pkg/client/auth/azure"
-	// _ "k8s.io/client-go/plugin/pkg/client/auth/gcp"
-	// _ "k8s.io/client-go/plugin/pkg/client/auth/oidc"
-	// _ "k8s.io/client-go/plugin/pkg/client/auth/openstack"
+	// _ "github.com/nalp/client-go/plugin/pkg/client/auth/azure"
+	// _ "github.com/nalp/client-go/plugin/pkg/client/auth/gcp"
+	// _ "github.com/nalp/client-go/plugin/pkg/client/auth/oidc"
+	// _ "github.com/nalp/client-go/plugin/pkg/client/auth/openstack"
 )
 
 func main() {

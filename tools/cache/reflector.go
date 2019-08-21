@@ -38,7 +38,7 @@ import (
 	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
 	"k8s.io/apimachinery/pkg/util/wait"
 	"k8s.io/apimachinery/pkg/watch"
-	"k8s.io/client-go/tools/pager"
+	"github.com/nalp/client-go/tools/pager"
 	"k8s.io/klog"
 	"k8s.io/utils/trace"
 )

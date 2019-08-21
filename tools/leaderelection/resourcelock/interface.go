@@ -21,8 +21,8 @@ import (
 
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"
-	coordinationv1 "k8s.io/client-go/kubernetes/typed/coordination/v1"
-	corev1 "k8s.io/client-go/kubernetes/typed/core/v1"
+	coordinationv1 "github.com/nalp/client-go/kubernetes/typed/coordination/v1"
+	corev1 "github.com/nalp/client-go/kubernetes/typed/core/v1"
 )
 
 const (

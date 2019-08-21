@@ -28,8 +28,8 @@ import (
 	"k8s.io/apimachinery/pkg/runtime/serializer"
 	"k8s.io/apimachinery/pkg/types"
 	"k8s.io/apimachinery/pkg/watch"
-	"k8s.io/client-go/metadata"
-	"k8s.io/client-go/testing"
+	"github.com/nalp/client-go/metadata"
+	"github.com/nalp/client-go/testing"
 )
 
 // MetadataClient assists in creating fake objects for use when testing, since metadata.Getter

@@ -22,7 +22,7 @@ import (
 
 	"k8s.io/apimachinery/pkg/conversion"
 	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/client-go/tools/clientcmd/api"
+	"github.com/nalp/client-go/tools/clientcmd/api"
 )
 
 func addConversionFuncs(scheme *runtime.Scheme) error {

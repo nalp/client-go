@@ -22,7 +22,7 @@ import (
 	v1alpha1 "k8s.io/api/settings/v1alpha1"
 	"k8s.io/apimachinery/pkg/api/errors"
 	"k8s.io/apimachinery/pkg/labels"
-	"k8s.io/client-go/tools/cache"
+	"github.com/nalp/client-go/tools/cache"
 )
 
 // PodPresetLister helps list PodPresets.

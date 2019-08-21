@@ -18,7 +18,7 @@ package fake
 
 import (
 	certificates "k8s.io/api/certificates/v1beta1"
-	core "k8s.io/client-go/testing"
+	core "github.com/nalp/client-go/testing"
 )
 
 func (c *FakeCertificateSigningRequests) UpdateApproval(certificateSigningRequest *certificates.CertificateSigningRequest) (result *certificates.CertificateSigningRequest, err error) {

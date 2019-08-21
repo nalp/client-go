@@ -25,7 +25,7 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"k8s.io/apimachinery/pkg/util/diff"
-	"k8s.io/client-go/tools/cache"
+	"github.com/nalp/client-go/tools/cache"
 )
 
 func TestNamespaceGetMethod(t *testing.T) {

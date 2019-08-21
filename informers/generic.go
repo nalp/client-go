@@ -55,7 +55,7 @@ import (
 	storagev1alpha1 "k8s.io/api/storage/v1alpha1"
 	storagev1beta1 "k8s.io/api/storage/v1beta1"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"
-	cache "k8s.io/client-go/tools/cache"
+	cache "github.com/nalp/client-go/tools/cache"
 )
 
 // GenericInformer is type of SharedIndexInformer which will locate and delegate to other

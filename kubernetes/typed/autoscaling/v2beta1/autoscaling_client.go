@@ -20,8 +20,8 @@ package v2beta1
 
 import (
 	v2beta1 "k8s.io/api/autoscaling/v2beta1"
-	"k8s.io/client-go/kubernetes/scheme"
-	rest "k8s.io/client-go/rest"
+	"github.com/nalp/client-go/kubernetes/scheme"
+	rest "github.com/nalp/client-go/rest"
 )
 
 type AutoscalingV2beta1Interface interface {

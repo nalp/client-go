@@ -63,7 +63,7 @@ import (
 	"k8s.io/apimachinery/pkg/util/clock"
 	"k8s.io/apimachinery/pkg/util/runtime"
 	"k8s.io/apimachinery/pkg/util/wait"
-	rl "k8s.io/client-go/tools/leaderelection/resourcelock"
+	rl "github.com/nalp/client-go/tools/leaderelection/resourcelock"
 
 	"k8s.io/klog"
 )

@@ -19,7 +19,7 @@ package fake
 import (
 	"k8s.io/api/core/v1"
 	types "k8s.io/apimachinery/pkg/types"
-	core "k8s.io/client-go/testing"
+	core "github.com/nalp/client-go/testing"
 )
 
 // TODO: Should take a PatchType as an argument probably.

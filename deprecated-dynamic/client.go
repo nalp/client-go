@@ -28,8 +28,8 @@ import (
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"k8s.io/apimachinery/pkg/types"
 	"k8s.io/apimachinery/pkg/watch"
-	"k8s.io/client-go/dynamic"
-	restclient "k8s.io/client-go/rest"
+	"github.com/nalp/client-go/dynamic"
+	restclient "github.com/nalp/client-go/rest"
 )
 
 // Interface is a Kubernetes client that allows you to access metadata

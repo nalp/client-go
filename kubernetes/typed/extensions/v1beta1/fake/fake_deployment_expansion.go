@@ -18,7 +18,7 @@ package fake
 
 import (
 	"k8s.io/api/extensions/v1beta1"
-	core "k8s.io/client-go/testing"
+	core "github.com/nalp/client-go/testing"
 )
 
 func (c *FakeDeployments) Rollback(deploymentRollback *v1beta1.DeploymentRollback) error {

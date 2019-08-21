@@ -28,9 +28,9 @@ import (
 	"k8s.io/apimachinery/pkg/util/clock"
 	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
 	"k8s.io/apimachinery/pkg/watch"
-	restclient "k8s.io/client-go/rest"
-	"k8s.io/client-go/tools/record/util"
-	ref "k8s.io/client-go/tools/reference"
+	restclient "github.com/nalp/client-go/rest"
+	"github.com/nalp/client-go/tools/record/util"
+	ref "github.com/nalp/client-go/tools/reference"
 	"k8s.io/klog"
 )
 

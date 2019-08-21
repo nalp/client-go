@@ -28,7 +28,7 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-// copied from k8s.io/client-go/transport/round_trippers_test.go
+// copied from github.com/nalp/client-go/transport/round_trippers_test.go
 type testRoundTripper struct {
 	Request  *http.Request
 	Response *http.Response

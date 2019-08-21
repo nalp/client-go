@@ -34,7 +34,7 @@ import (
 	"k8s.io/apimachinery/pkg/util/diff"
 	"k8s.io/apimachinery/pkg/util/sets"
 	"k8s.io/apimachinery/pkg/version"
-	restclient "k8s.io/client-go/rest"
+	restclient "github.com/nalp/client-go/rest"
 )
 
 func TestGetServerVersion(t *testing.T) {

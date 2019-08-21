@@ -29,8 +29,8 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	k8sruntime "k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/util/wait"
-	"k8s.io/client-go/kubernetes/scheme"
-	ref "k8s.io/client-go/tools/reference"
+	"github.com/nalp/client-go/kubernetes/scheme"
+	ref "github.com/nalp/client-go/tools/reference"
 )
 
 type testEventSeriesSink struct {

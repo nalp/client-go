@@ -31,10 +31,10 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/util/clock"
 	"k8s.io/apimachinery/pkg/util/diff"
-	"k8s.io/client-go/kubernetes/fake"
-	fakeclient "k8s.io/client-go/testing"
-	rl "k8s.io/client-go/tools/leaderelection/resourcelock"
-	"k8s.io/client-go/tools/record"
+	"github.com/nalp/client-go/kubernetes/fake"
+	fakeclient "github.com/nalp/client-go/testing"
+	rl "github.com/nalp/client-go/tools/leaderelection/resourcelock"
+	"github.com/nalp/client-go/tools/record"
 )
 
 func createLockObject(objectType, namespace, name string, record rl.LeaderElectionRecord) (obj runtime.Object) {
