@@ -21,7 +21,7 @@ import (
 	"time"
 
 	"k8s.io/apimachinery/pkg/util/clock"
-	"k8s.io/utils/integer"
+	"github.com/nalp/utils/integer"
 )
 
 type backoffEntry struct {

@@ -40,7 +40,7 @@ import (
 	"k8s.io/apimachinery/pkg/watch"
 	"github.com/nalp/client-go/tools/pager"
 	"k8s.io/klog"
-	"k8s.io/utils/trace"
+	"github.com/nalp/utils/trace"
 )
 
 // Reflector watches a specified resource and causes all changes to be reflected in the given store.

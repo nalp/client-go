@@ -29,7 +29,7 @@ require (
 	k8s.io/api v0.0.0-20190820101039-d651a1528133
 	k8s.io/apimachinery v0.0.0-20190820100750-21ddcbbef9e1
 	k8s.io/klog v0.4.0
-	k8s.io/utils v0.0.0-20190801114015-581e00157fb1
+	github.com/nalp/utils v0.0.0-20190801114015-581e00157fb1
 	sigs.k8s.io/yaml v1.1.0
 )
 

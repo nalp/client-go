@@ -26,7 +26,7 @@ import (
 	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
 	"k8s.io/apimachinery/pkg/util/wait"
 	"github.com/nalp/client-go/util/retry"
-	"k8s.io/utils/buffer"
+	"github.com/nalp/utils/buffer"
 
 	"k8s.io/klog"
 )

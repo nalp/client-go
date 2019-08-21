@@ -303,7 +303,7 @@
 			"Rev": "33be087ad058"
 		},
 		{
-			"ImportPath": "k8s.io/utils",
+			"ImportPath": "github.com/nalp/utils",
 			"Rev": "581e00157fb1"
 		},
 		{
